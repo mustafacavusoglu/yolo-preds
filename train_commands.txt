@@ -1,0 +1,1 @@
+python train.py --img 448 --batch 4 --device 0 --epochs 300 --data data/dmr/custom_data.yaml --weights '' --hyp data/hyps/hyp.scratch-med.yaml --cfg models/custom_yolov5s-transformer.yaml --name yuzde_10_300 --cache
